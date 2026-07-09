@@ -31,6 +31,9 @@ Most AI agent frameworks assume cloud access, high-end hardware, or fat API budg
 
 ## Quick start
 
+See [INSTALL.md](INSTALL.md) for full prerequisites and setup guide.
+
+
 ```bash
 git clone https://github.com/Jeammyjeam/eko.git
 cd eko
