@@ -54,3 +54,5 @@ env_template.json
 !.env.example
 .env
 backup/
+__pycache__/
+*.pyc
