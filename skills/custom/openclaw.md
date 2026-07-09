@@ -2,7 +2,7 @@
 name: openclaw
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - openclaw
 - ai assistant
