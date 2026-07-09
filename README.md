@@ -62,3 +62,9 @@ Telegram / CLI
 
 AbdulMumeen Junaid-Eko — AI Integration Developer  
 [github.com/Jeammyjeam](https://github.com/Jeammyjeam)
+
+## Contact
+
+Found a bug or have questions? Open a GitHub issue or reach out:  
+- abdulmumeenjunaideko@gmail.com  
+- jjeam140@gmail.com
