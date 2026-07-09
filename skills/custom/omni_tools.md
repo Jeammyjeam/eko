@@ -2,7 +2,7 @@
 name: omni_tools
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - install
 - run
