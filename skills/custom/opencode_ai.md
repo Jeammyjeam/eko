@@ -2,7 +2,7 @@
 name: opencode_ai
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - opencode
 - ai coding agent
