@@ -1,0 +1,1 @@
+CORTEX is a personal AI Operating System built by Jeam on Ubuntu WSL2. It uses PostgreSQL for data storage, Hermes Agent for AI reasoning, and n8n for automation. The system archives GitHub repos, extracts capabilities, and provides semantic search via pgvector RAG pipeline.

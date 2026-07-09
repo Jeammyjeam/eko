@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+env/
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.*
+*.env
+
+# Backups
+*.bak
+*.bak.*
+
+# Database dumps — contain sensitive data
+*.sql
+cortex_migration_payload/
+
+# Logs
+*.log
+logs/
+
+# PM2
+.pm2/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Docs inbox/processed — personal files
+docs_inbox/
+docs_processed/
+
+# Node
+node_modules/
+
+# Secrets
+*_secret*
+*_key*
+env_template.json
+!.env.example
+.env
+backup/

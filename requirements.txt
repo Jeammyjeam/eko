@@ -1,0 +1,26 @@
+# Core
+psycopg2-binary
+python-dotenv
+requests
+pyyaml
+pydantic
+
+# AI / ML
+ollama
+google-generativeai
+
+# RAG
+pgvector
+
+# Data
+psutil
+
+# Web search
+duckduckgo-search
+
+# Document processing
+pypdf2
+python-docx
+
+# Dashboard
+streamlit

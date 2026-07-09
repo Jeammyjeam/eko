@@ -1,0 +1,15 @@
+{
+  "tier": "LIGHT",
+  "host_ram_gb": 4,
+  "available_ram_gb": 1.1,
+  "cpu_cores": 8,
+  "architecture": "x86_64",
+  "os": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "docker_mem_limit": "64m",
+  "docker_cpu_limit": 0.25,
+  "ollama_fallback_model": "qwen2.5-coder:1.5b",
+  "max_concurrent_tasks": 1,
+  "rag_chunk_limit": 3,
+  "embedding_batch_size": 2,
+  "detected_at": "2026-06-07 06:22:51"
+}
