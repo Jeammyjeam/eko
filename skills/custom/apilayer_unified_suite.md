@@ -2,7 +2,7 @@
 name: apilayer_unified_suite
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - geocode
 - validate email
