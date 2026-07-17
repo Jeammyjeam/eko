@@ -2,7 +2,7 @@
 name: rd_agent
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - Quant Factor Mining
 - Quant Factor Mining from reports
