@@ -2,7 +2,7 @@
 name: react_cosmos
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - react-cosmos
 - react-server-components
