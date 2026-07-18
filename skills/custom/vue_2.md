@@ -2,7 +2,7 @@
 name: vue_2
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - end of life
 - vue 2
