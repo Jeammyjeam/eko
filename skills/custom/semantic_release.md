@@ -2,10 +2,11 @@
 name: semantic_release
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
-- release
-- version
+- semantic release
+- automate versioning
+- npm release automation
 command: python3 /home/junaid-eko/cortex/scripts/synthesized/semantic_release.py {query}
 ram_mb: 512
 requires: []

@@ -1,11 +1,17 @@
 import subprocess
 import sys
+import re
 
 # Auto-generated CORTEX skill wrapper for: sherlock
 # Find social media accounts by username across multiple platforms
 
 def execute_skill(query=""):
-    args = ["sherlock", query, "--timeout", "10", "--print-found"]
+    # Extract just the username from natural language queries
+    # e.g. "search social media accounts for username jeammy" -> "jeammy"
+    username_match = re.search(r'(?:username|user|for|@)\s+(\S+)$', query.strip(), re.IGNORECASE)
+    username = username_match.group(1) if username_match else query.strip().split()[-1]
+    
+    args = ["sherlock", username, "--timeout", "5", "--print-found"]
     try:
         result = subprocess.run(
             args,
@@ -18,7 +24,7 @@ def execute_skill(query=""):
             sys.exit(result.returncode)
         print(result.stdout)
     except FileNotFoundError:
-        print(f"Error: CLI tool not found — is it installed?", file=sys.stderr)
+        print(f"Error: sherlock not installed — run: pip install sherlock-project", file=sys.stderr)
         sys.exit(1)
     except subprocess.TimeoutExpired:
         print(f"Error: Command timed out after 120s", file=sys.stderr)
