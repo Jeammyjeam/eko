@@ -4,7 +4,7 @@ version: '0.1'
 category: experimental
 status: experimental
 triggers:
-- nodejs
+- node version windows
 - windows
 command: python3 /home/junaid-eko/cortex/scripts/synthesized/nvm_windows.py {query}
 ram_mb: 512

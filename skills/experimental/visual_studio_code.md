@@ -4,7 +4,7 @@ version: '0.1'
 category: experimental
 status: experimental
 triggers:
-- code
+- open vscode
 - vscode
 command: python3 /home/junaid-eko/cortex/scripts/synthesized/visual_studio_code.py
   {query}

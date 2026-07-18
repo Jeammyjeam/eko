@@ -5,7 +5,7 @@ category: experimental
 status: experimental
 triggers:
 - LLM
-- AI
+- llm application
 - Enterprise Search
 command: python3 /home/junaid-eko/cortex/scripts/synthesized/llm_app.py {query}
 ram_mb: 512

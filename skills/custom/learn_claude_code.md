@@ -2,10 +2,10 @@
 name: learn_claude_code
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - agent
-- model
+- claude model training
 - harness
 command: python3 /home/junaid-eko/cortex/scripts/synthesized/learn_claude_code.py
   {query}
