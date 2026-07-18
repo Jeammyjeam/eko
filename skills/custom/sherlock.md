@@ -6,7 +6,10 @@ status: active
 triggers:
 - sherlock
 - find social media accounts
+- search social media accounts
 - hunt username
+- lookup username
+- find accounts for username
 command: python3 /home/junaid-eko/cortex/scripts/synthesized/sherlock.py {query}
 ram_mb: 50
 requires:
