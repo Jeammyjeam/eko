@@ -2,7 +2,7 @@
 name: claude_code
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - code
 - develop
