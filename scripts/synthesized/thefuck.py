@@ -1,11 +1,11 @@
 import subprocess
 import sys
 
-# Auto-generated CORTEX skill wrapper for: visual_studio_code
-# Visual Studio Code is a distribution of the `Code - OSS` repository with Microsoft-specific customiz
+# Auto-generated CORTEX skill wrapper for: thefuck
+# A command-line tool that corrects errors in previous console commands.
 
 def execute_skill(query=""):
-    args = ["code", "--flag", "{query}"]
+    args = ["--no-require-confirmation"]
     # Replace {query} placeholder with actual input
     args = [a.replace("{{query}}", query) for a in args]
     try:
