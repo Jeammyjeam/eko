@@ -2,7 +2,7 @@
 name: rod
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - web automation
 - scraping

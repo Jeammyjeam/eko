@@ -12,7 +12,10 @@ CORE = os.path.join(SKILLS_DIR, "core")
 LOCK_FILE = "/tmp/cortex_promoter.lock"
 
 def load_active_triggers():
-    """Load all triggers from core and custom skills to detect collisions."""
+    """Load all triggers from core and custom skills to detect collisions.
+    Only flags exact duplicate triggers — shared generic triggers are allowed
+    since route_by_skills uses longest-match-first to resolve ambiguity.
+    """
     triggers = {}
     for category in ["core", "custom"]:
         path = os.path.join(SKILLS_DIR, category)
@@ -33,7 +36,11 @@ def load_active_triggers():
                     pass
             name = meta.get("name", fname.replace(".md", ""))
             for t in meta.get("triggers", []):
-                triggers[t.lower()] = name
+                t_lower = t.lower().strip()
+                # Only flag SHORT generic triggers (under 6 chars) as collisions
+                # Longer specific triggers can be shared — longest match wins at runtime
+                if len(t_lower) <= 6:
+                    triggers[t_lower] = name
     return triggers
 
 def validate_frontmatter(meta, filepath):
