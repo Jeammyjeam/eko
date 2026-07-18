@@ -2,7 +2,7 @@
 name: taste_skill
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - AI Agents
 - Frontend Frameworks
