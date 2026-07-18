@@ -2,7 +2,7 @@
 name: visual_studio_code
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - open vscode
 - vscode
