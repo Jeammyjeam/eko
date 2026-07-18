@@ -2,7 +2,7 @@
 name: nvm_windows
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - node version windows
 - windows
