@@ -2,7 +2,7 @@
 name: vanna_2_0
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - turn questions into data insights
 - "natural language \u2192 SQL \u2192 answers"
