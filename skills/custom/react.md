@@ -2,7 +2,7 @@
 name: react
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - react
 - javascript
