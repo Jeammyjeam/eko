@@ -9,6 +9,11 @@ triggers:
   - related to
   - similar to
   - rag
+  - search knowledge
+  - what do you know about
+  - search repos
+  - find tools for
+  - recommend tools
   - knowledge
   - semantic
 command: python3 /home/junaid-eko/cortex/scripts/rag_query.py "{query}"
