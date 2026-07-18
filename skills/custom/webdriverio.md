@@ -2,7 +2,7 @@
 name: webdriverio
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - webdriver
 - automation
