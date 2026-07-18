@@ -2,7 +2,7 @@
 name: llm_app
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - LLM
 - llm application
