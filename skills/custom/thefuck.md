@@ -2,7 +2,7 @@
 name: thefuck
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - fix
 - correct
