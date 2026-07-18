@@ -2,7 +2,7 @@
 name: serena
 version: '0.1'
 category: experimental
-status: experimental
+status: active
 triggers:
 - semantic code retrieval
 - editing
